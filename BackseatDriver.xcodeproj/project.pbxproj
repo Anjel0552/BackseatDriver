@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3770017B1C07F25F00F41EE7 /* ModernReality.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3770017A1C07F25F00F41EE7 /* ModernReality.ttf */; };
+		3770017E1C07F27800F41EE7 /* OptimusPrinceps.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3770017C1C07F27800F41EE7 /* OptimusPrinceps.ttf */; };
+		3770017F1C07F27800F41EE7 /* OptimusPrincepsSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3770017D1C07F27800F41EE7 /* OptimusPrincepsSemiBold.ttf */; };
+		37ACE5951C078769007417EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37ACE5941C078769007417EA /* AppDelegate.swift */; };
+		37ACE5971C078769007417EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37ACE5961C078769007417EA /* ViewController.swift */; };
+		37ACE59A1C078769007417EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37ACE5981C078769007417EA /* Main.storyboard */; };
+		37ACE59C1C078769007417EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37ACE59B1C078769007417EA /* Assets.xcassets */; };
+		37ACE59F1C078769007417EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37ACE59D1C078769007417EA /* LaunchScreen.storyboard */; };
+		37ACE5AD1C078DE7007417EA /* Chasing Embers Demo Version.otf in Resources */ = {isa = PBXBuildFile; fileRef = 37ACE5AB1C078DE7007417EA /* Chasing Embers Demo Version.otf */; };
+		37ACE5AE1C078DE7007417EA /* Chasing Embers Demo Version.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37ACE5AC1C078DE7007417EA /* Chasing Embers Demo Version.ttf */; };
+		37ACE5B01C078EE7007417EA /* Surfing Capital.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37ACE5AF1C078EE7007417EA /* Surfing Capital.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3770017A1C07F25F00F41EE7 /* ModernReality.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ModernReality.ttf; sourceTree = "<group>"; };
+		3770017C1C07F27800F41EE7 /* OptimusPrinceps.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OptimusPrinceps.ttf; sourceTree = "<group>"; };
+		3770017D1C07F27800F41EE7 /* OptimusPrincepsSemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OptimusPrincepsSemiBold.ttf; sourceTree = "<group>"; };
+		37ACE5911C078769007417EA /* BackseatDriver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackseatDriver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37ACE5941C078769007417EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37ACE5961C078769007417EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		37ACE5991C078769007417EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37ACE59B1C078769007417EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37ACE59E1C078769007417EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37ACE5A01C078769007417EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37ACE5AB1C078DE7007417EA /* Chasing Embers Demo Version.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chasing Embers Demo Version.otf"; sourceTree = "<group>"; };
+		37ACE5AC1C078DE7007417EA /* Chasing Embers Demo Version.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chasing Embers Demo Version.ttf"; sourceTree = "<group>"; };
+		37ACE5AF1C078EE7007417EA /* Surfing Capital.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Surfing Capital.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37ACE58E1C078769007417EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37ACE5881C078769007417EA = {
+			isa = PBXGroup;
+			children = (
+				37ACE5AA1C078DB2007417EA /* resources */,
+				37ACE5931C078769007417EA /* BackseatDriver */,
+				37ACE5921C078769007417EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37ACE5921C078769007417EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37ACE5911C078769007417EA /* BackseatDriver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37ACE5931C078769007417EA /* BackseatDriver */ = {
+			isa = PBXGroup;
+			children = (
+				37ACE5941C078769007417EA /* AppDelegate.swift */,
+				37ACE5961C078769007417EA /* ViewController.swift */,
+				37ACE5981C078769007417EA /* Main.storyboard */,
+				37ACE59B1C078769007417EA /* Assets.xcassets */,
+				37ACE59D1C078769007417EA /* LaunchScreen.storyboard */,
+				37ACE5A01C078769007417EA /* Info.plist */,
+			);
+			path = BackseatDriver;
+			sourceTree = "<group>";
+		};
+		37ACE5AA1C078DB2007417EA /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				37ACE5AF1C078EE7007417EA /* Surfing Capital.ttf */,
+				37ACE5AB1C078DE7007417EA /* Chasing Embers Demo Version.otf */,
+				37ACE5AC1C078DE7007417EA /* Chasing Embers Demo Version.ttf */,
+				3770017A1C07F25F00F41EE7 /* ModernReality.ttf */,
+				3770017C1C07F27800F41EE7 /* OptimusPrinceps.ttf */,
+				3770017D1C07F27800F41EE7 /* OptimusPrincepsSemiBold.ttf */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37ACE5901C078769007417EA /* BackseatDriver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37ACE5A31C078769007417EA /* Build configuration list for PBXNativeTarget "BackseatDriver" */;
+			buildPhases = (
+				37ACE58D1C078769007417EA /* Sources */,
+				37ACE58E1C078769007417EA /* Frameworks */,
+				37ACE58F1C078769007417EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BackseatDriver;
+			productName = BackseatDriver;
+			productReference = 37ACE5911C078769007417EA /* BackseatDriver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37ACE5891C078769007417EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Anjel Villafranco";
+				TargetAttributes = {
+					37ACE5901C078769007417EA = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 5675RLBA9Q;
+					};
+				};
+			};
+			buildConfigurationList = 37ACE58C1C078769007417EA /* Build configuration list for PBXProject "BackseatDriver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37ACE5881C078769007417EA;
+			productRefGroup = 37ACE5921C078769007417EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37ACE5901C078769007417EA /* BackseatDriver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37ACE58F1C078769007417EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37ACE5AD1C078DE7007417EA /* Chasing Embers Demo Version.otf in Resources */,
+				3770017F1C07F27800F41EE7 /* OptimusPrincepsSemiBold.ttf in Resources */,
+				37ACE59F1C078769007417EA /* LaunchScreen.storyboard in Resources */,
+				3770017B1C07F25F00F41EE7 /* ModernReality.ttf in Resources */,
+				37ACE59C1C078769007417EA /* Assets.xcassets in Resources */,
+				3770017E1C07F27800F41EE7 /* OptimusPrinceps.ttf in Resources */,
+				37ACE59A1C078769007417EA /* Main.storyboard in Resources */,
+				37ACE5AE1C078DE7007417EA /* Chasing Embers Demo Version.ttf in Resources */,
+				37ACE5B01C078EE7007417EA /* Surfing Capital.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37ACE58D1C078769007417EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37ACE5971C078769007417EA /* ViewController.swift in Sources */,
+				37ACE5951C078769007417EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37ACE5981C078769007417EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37ACE5991C078769007417EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37ACE59D1C078769007417EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37ACE59E1C078769007417EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37ACE5A11C078769007417EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37ACE5A21C078769007417EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37ACE5A41C078769007417EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = BackseatDriver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anjelvillafranco.BackseatDriver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		37ACE5A51C078769007417EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = BackseatDriver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anjelvillafranco.BackseatDriver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37ACE58C1C078769007417EA /* Build configuration list for PBXProject "BackseatDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37ACE5A11C078769007417EA /* Debug */,
+				37ACE5A21C078769007417EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37ACE5A31C078769007417EA /* Build configuration list for PBXNativeTarget "BackseatDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37ACE5A41C078769007417EA /* Debug */,
+				37ACE5A51C078769007417EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37ACE5891C078769007417EA /* Project object */;
+}
