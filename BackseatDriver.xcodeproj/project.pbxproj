@@ -25,12 +25,12 @@
 		3770017C1C07F27800F41EE7 /* OptimusPrinceps.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OptimusPrinceps.ttf; sourceTree = "<group>"; };
 		3770017D1C07F27800F41EE7 /* OptimusPrincepsSemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OptimusPrincepsSemiBold.ttf; sourceTree = "<group>"; };
 		37ACE5911C078769007417EA /* BackseatDriver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackseatDriver.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		37ACE5941C078769007417EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37ACE5941C078769007417EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = BackseatDriver/AppDelegate.swift; sourceTree = "<group>"; };
 		37ACE5961C078769007417EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		37ACE5991C078769007417EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		37ACE59B1C078769007417EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37ACE59B1C078769007417EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = BackseatDriver/Assets.xcassets; sourceTree = "<group>"; };
 		37ACE59E1C078769007417EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		37ACE5A01C078769007417EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37ACE5A01C078769007417EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = BackseatDriver/Info.plist; sourceTree = "<group>"; };
 		37ACE5AB1C078DE7007417EA /* Chasing Embers Demo Version.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chasing Embers Demo Version.otf"; sourceTree = "<group>"; };
 		37ACE5AC1C078DE7007417EA /* Chasing Embers Demo Version.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chasing Embers Demo Version.ttf"; sourceTree = "<group>"; };
 		37ACE5AF1C078EE7007417EA /* Surfing Capital.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Surfing Capital.ttf"; sourceTree = "<group>"; };
@@ -47,11 +47,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		378657831C0C8C0D00294E6F /* SYSTEM */ = {
+			isa = PBXGroup;
+			children = (
+				37ACE5941C078769007417EA /* AppDelegate.swift */,
+				37ACE59D1C078769007417EA /* LaunchScreen.storyboard */,
+				37ACE5A01C078769007417EA /* Info.plist */,
+				37ACE59B1C078769007417EA /* Assets.xcassets */,
+			);
+			name = SYSTEM;
+			sourceTree = "<group>";
+		};
 		37ACE5881C078769007417EA = {
 			isa = PBXGroup;
 			children = (
 				37ACE5AA1C078DB2007417EA /* resources */,
 				37ACE5931C078769007417EA /* BackseatDriver */,
+				378657831C0C8C0D00294E6F /* SYSTEM */,
 				37ACE5921C078769007417EA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,12 +79,8 @@
 		37ACE5931C078769007417EA /* BackseatDriver */ = {
 			isa = PBXGroup;
 			children = (
-				37ACE5941C078769007417EA /* AppDelegate.swift */,
 				37ACE5961C078769007417EA /* ViewController.swift */,
 				37ACE5981C078769007417EA /* Main.storyboard */,
-				37ACE59B1C078769007417EA /* Assets.xcassets */,
-				37ACE59D1C078769007417EA /* LaunchScreen.storyboard */,
-				37ACE5A01C078769007417EA /* Info.plist */,
 			);
 			path = BackseatDriver;
 			sourceTree = "<group>";
@@ -190,6 +198,7 @@
 				37ACE59E1C078769007417EA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = BackseatDriver;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
